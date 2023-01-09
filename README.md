@@ -18,15 +18,12 @@ Para o envio dos e-mails utilizamos um STMP Fake(https://ethereal.email/messages
 
 
 ## Modelo base de dados 
-
 ![Mailer DB](/mailer-db.png "Modelo do bando de dados")
 
 
 
-
 ## Vídeo demostrativo da solução.
-
-
+https://www.loom.com/share/d34f62b316614f2da93a64387b3434f1
 
 
 ## Desenvolvedores

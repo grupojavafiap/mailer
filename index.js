@@ -1,6 +1,6 @@
 
 require('dotenv').config();
-const { randomUUID } = require('crypto');
+const randomUUID  = require('crypto');
 const  mysql = require('mysql');
 const nodemailer = require('nodemailer');
     
@@ -79,7 +79,7 @@ exports.handler = async (event) => {
             return info.messageId;
         }   
 
-        randomUUID();
+        return randomUUID();
     }
 
 
@@ -112,3 +112,5 @@ exports.handler = async (event) => {
     return response
 
 }
+
+handler();
