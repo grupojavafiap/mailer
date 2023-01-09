@@ -1,0 +1,25 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grupojavafiap/mailer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grupojavafiap/mailer/issues"
+  },
+  "homepage": "https://github.com/grupojavafiap/mailer#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.8.0"
+  }
+}
