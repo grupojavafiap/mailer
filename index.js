@@ -106,11 +106,9 @@ exports.handler = async (event) => {
 
     const response = {
         statusCode: 200,
-        body: 'received'
+        body: 'success'
     }
 
     return response
 
 }
-
-handler();
