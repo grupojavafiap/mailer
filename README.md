@@ -1,4 +1,5 @@
-# Mailer - Envio de e-mails - Projeto para a disciplina Serverless Architecture - FIAP 
+# Mailer - Envio de e-mails 
+## Projeto para a disciplina Serverless Architecture - FIAP 
 
 Mailer é uma lambda desenvolvida em nodejs v16 para envio de e-mails.
 A lambda se conecta ao MySQL provido pelo RDS da AWS, recupera os e-mails e o conteudo a ser enviado, envia os e-mails para os destinos cadastrados na base de dados, e 
@@ -16,8 +17,15 @@ O Gatinho para execução da lambda é um endpoint exposto por um API Gateway.<b
 Para o envio dos e-mails utilizamos um STMP Fake(https://ethereal.email/messages)
 
 
+## Modelo base de dados 
+
+![Mailer DB](/mailer-db "Modelo do bando de dados")
+
+
+
 
 ## Vídeo demostrativo da solução.
+
 
 
 
